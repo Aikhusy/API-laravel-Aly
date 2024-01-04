@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('LandingPage.landing_page');
 });
+
+Route::get('/film',function(){
+    return view('admin_film.table_film');
+});
